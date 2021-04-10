@@ -42,7 +42,7 @@ section{
 
 }
 aside{
-    float: left;
+    float: right;
     width: 20%;
     background-color:beige;
     color: black;

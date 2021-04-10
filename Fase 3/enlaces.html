@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Etiquetas semánticas, Listas y enlaces</h1>
+        <img src="img/Unad 2.png"width="250" height="100" style="float: left inherit;" alt="Unad">
+    </header>
+    <ul class="menu">
+        <li><a href="index.html"></a>Inicio</li>
+        <li class="boton"> <a href="#">Temas</a>
+            <div class="listaDesplegable">
+                <a href="Etiquetas semánticas.html">Etiquetas semánticas HTML</a>
+                <a href="Listas.html">listas HTML</a>
+                <a href="enlaces.html">enlaces HTML</a>
+            </div>
+        </li>
+        <li class="boton"> <a href="#"> Recursos</a>
+            <div class="listaDesplegable">
+                <a href="Recurso1.html">Recurso 1</a>
+                <a href="Recurso2.html">Recurso 2</a>
+            </div>
+        </li>
+        <li class="boton"> <a href="#"> Aprendizaje</a>
+            <div class="listaDesplegable">
+                <a href="Aprendizaje1.html"> Aprendizaje 1</a>
+                <a href="Aprendizaje2.html"> Aprendizaje 2</a>
+            </div>
+        </li>
+        <li><a href="autor.html">Autor</a>
+        </li>
+    </ul>
+</nav>
+<div class="Contenedor">
+    <article>
+        <h3>¿Qué son los enlaces en HTML?</h3>
+        <p>Lo más importante de los documentos HTML son los enlaces. Ya que mediante los enlaces
+             en HTML podemos comunicar una página con otra. De esta forma, enlazando documentos
+              HTML podemos acabar tejiendo lo que es Internet.
+            Para crear un enlace en HTML utilizamos el elemento A con la siguiente sintaxis:</p>
+            <img src="img/Imagen6.png" alt="sintaxis">
+            <p>Pero solo con esto el enlace no tendrá mucha utilidad ya que el principal objetivo
+                 del enlace es enlazar a un destino. Para poder indicar el destino de un enlace
+                  utilizamos el [atributo href][Href]. En valor del [atributo href][Href] puede
+                   ser cualquier URI que represente un recurso. Es decir, una página, una parte
+                    de una página, una URL genérica, un archivo,… De esta forma el enlace en HTML
+                     lo crearemos con la sintaxis:</p>
+                     <img src="img/Imagen7.png" alt="sintaxis1">
+                     <p>A modo de ejemplo podríamos tener los siguientes enlaces:</p>
+                     <img src="img/Imagen8.png" alt="enlaces">
+                     <h3>Destino del enlace</h3>
+                     <p>Pero, ¿dónde se abre el enlace? Pues por defecto y si no hemos configurado
+                          nada en el navegador web que estemos utilizando el enlace se abre en la
+                           misma ventana en la que tengamos el enlace.
+                        Si bien, en el enlace, podemos indicar el destino que queremos darle a dicho enlace.
+                         Eso lo podemos hacer mediante el atributo target. Los posibles valores que admite el 
+                         atributo target son:
+                         <ol>
+                             <li>blank, el agente de usuario intentará abrir el enlace en una nueva ventana. 
+                                 La nueva ventana no tendrá nombre.</li>
+                                 <li>self, el agente de usuario intentará abrir el enlace en el mismo marco 
+                                     donde está en código actual.</li>
+                                     <li>parent, el agente de usuario intentará abrir el enlace en el frameset
+                                          inmediatamente superior al que se encuentra la página.
+                                           Esto suele suceder cuando tenemos el enlace en un 
+                                           área de frames.</li>
+                                           <li>top, el agente de usuario intentará abrir el enlace en la
+                                                ventana padre. En el caso de que exista un frameset lo
+                                                 eliminará y se hará con toda la ventana.</li>
+                                                 <li>nombre_marco, se podrá indicar el nombre de un frame.
+                                                      En este caso el agente de usuario intentará abrir el 
+                                                      enlace en el frame que coincida con el nombre. En el
+                                                       caso de no existir un frame con ese nombre lo abrirá 
+                                                       en una nueva ventana, asignándole dicho nombre.</li>
+                                                       <p>
+                                                           <p>Así podremos tener el siguiente código:</p>
+                                                           <img src="img/Imagen9.png" alt="ejemplo">
+                                                           
+                         </ol>
+                       
+
+    </article>
+    <aside>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </aside>
+    <footer>
+        <h6>ovchambov@unadvirtual.edu.co <br>
+            fecha de actualización: 9 de Abril de 2021</h6>
+    </footer>

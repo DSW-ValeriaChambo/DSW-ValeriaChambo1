@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <head>
+
+    <body>
+        <header>
+            <h1>Etiquetas semánticas, Listas y enlaces</h1>
+            <img src="img/Unad 2.png" width="250" height="100" style="float: left inherit;" alt="Unad">
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Página principal</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                      Temas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Etiquetas semánticas.html">Tema 1</a></li>
+                      <li><a class="dropdown-item" href="Listas.html">Tema 2</a></li>
+                      <li><a class="dropdown-item" href="enlaces.html">Tema 3</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                      Recursos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Recurso1.html">Recurso 1</a></li>
+                      <li><a class="dropdown-item" href="Recurso2.html">Recurso 2</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                      Aprendizajes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Aprendizaje1.html">Aprendizaje 1</a></li>
+                      <li><a class="dropdown-item" href="Aprendizaje2.html">Aprendizaje 2</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                      Autor
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="autor.html">Autor</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+<div class="Contenedor">
+    <article>
+        <h3>LISTAS HTML</h3>
+        <br>
+        Las listas en HTML nos permite crear conjuntos de elementos en forma de lista dentro de una página,
+         todos los cuales irán precedidos, generalmente, por un guión o número.
+
+         Los tipos de listas en HTML son los siguientes:
+
+        <br>
+        <ol><li>Listas ordenadas</li>
+            <li>Listas desordenadas</li>
+            <li>Listas de definiciones</li>
+        </ol>
+        <h3>Listas ordenadas</h3>
+        <p>Las listas en HTML ordenadas son aquellas que nos muestran los elementos de la lista en orden. 
+            Para representar el orden tendremos los elementos numerados. Es decir, cada uno de los elementos
+             irá precedido de un número o letra que establezca su orden.
+            Las listas en HTML ordenadas se representan mediante el elemento OL.
+            <br>
+            <img src="img/Imagen1.png"style= "float: none;" width="500" height="500"  alt="Lista ordenada">
+        </p>
+        <br>
+        <h3>Atributos start/type en HTML 4.01</h3>
+        <p>Aunque en HTML 5 han vuelto a la especificación los atributos type y start hay que tener cuidado
+             con ellos, ya que en ciertas versiones como HTML 4.01 fueron declarados obsoletos, por lo cual
+              si usamos tipos de documentos HTML 4.01 strict podríamos tener un problema en su definición.
+            Para estos casos (y para todos en general) podemos utilizar las hojas de estilo CSS de cara a
+            dar estilo a las listas en HTML.
+            De esta forma en CSS podemos escribir lo siguiente:</p>
+            <br>
+            <img src="img/Imagen2.png" alt="start/type">
+            <br>
+            <h3>Listas en orden inverso: reversed</h3>
+            <p>En HTML 5 aparece el atributo reversed para las listas ordenadas.
+                 El atributo reversed nos permite invertir el orden de la lista.
+                  Es decir, realiza la numeración de la lista de forma inversa.
+                Para utilizarlo simplemente indicamos el atributo reversed sobre el elemento OL.</p>
+                <br>
+                <img src="img/Imagen3.png" alt="Lista inversa">
+                <br>
+                <h3>Lista Desordenada</h3>
+                <p>Las listas desordenadas en HTML nos sirven para mostrar los elementos sin ningún
+                     tipo de orden, simplemente precedidos por una viñeta que puede ser un punto,
+                      un cuadrado,…
+                    Para definir una lista desordenada en HTML utilizamos el elemento ul.</p>
+                    <img src="img/Imagen4.png" alt="lista desordenada">
+                    <br>
+                    <h3>Lista de definiciones</h3>
+                    <p>Las listas en HTML de definiciones en HTML nos sirven para montar listas en las
+                         que tenemos la estructura valor y definición. Suelen ser listas para definir
+                          términos, como si fuese un diccionario, si bien pueden ser cualquier par
+                           valor-definición.
+                        Las listas en HTML de definiciones en HTML se construyen mediante el elemento dl.</p>
+                        <img src="img/Imagen5.png" alt="lista de definiciones">
+                        <br>
+                        <p>Referencia general APA</p>
+                        <h6>http://www.manualweb.net/html/listas-html/</h6>
+
+                        <footer>
+                            <h6>ovchambov@unadvirtual.edu.co <br>
+                                fecha de actualización: 9 de Abril de 2021</h6>
+                                <aside>
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                                </aside>
+                        
+                        </html>
+                        
+          
+        
+
+    </article>

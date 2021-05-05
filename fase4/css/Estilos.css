@@ -1,0 +1,59 @@
+header {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    text-align: left;
+    padding: 20px;
+background-color: aqua ;
+color: rgb(240, 9, 9);
+}
+.menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+    background-color: burlywood;    font-family: 'Lucida Sans','Times New Roman', Times, serif 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.listaDesplegable{
+    display: none;
+    background-color: cadetblue;
+    position: absolute;
+}
+.listaDesplegable a{
+    background-color: cadetblue;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+display: block;
+}
+li a:hover{
+    background-color: azure;
+}
+nav {
+background-color: coral;
+text-align: center;  
+}
+section{
+    float: left;
+    width: 80%;
+    background-color: cornflowerblue;
+    color: black;
+
+}
+aside{
+    float: right;
+    width: 20%;
+    background-color:beige;
+    color: black;
+}
+footer{
+    padding: 10px;
+    background-color:rgb(198, 233, 44) ;
+    color: black;
+}
+.Contenedor::after{
+    content:"" ;
+    display: block;
+    clear: both;
+}
